@@ -1,0 +1,22 @@
+{
+  "name": "@fuzion-is/sdk-ts-apps",
+  "version": "1.0.0",
+  "description": "Fuzion SDK for Typescript Runtime APPs",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "tslint --project .",
+    "build": "tsc -b && cp package.json dist/"
+  },
+  "repository": "https://github.com/fuzion-is/sdk-ts-apps.git",
+  "author": "Pierre Tomasina <pierre@fuzion.is>",
+  "license": "MIT",
+  "devDependencies": {
+    "codelyzer": "^6.0.2",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
